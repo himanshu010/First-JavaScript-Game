@@ -3,11 +3,13 @@ let doorImage2= document.getElementById('door2');
 let doorImage3= document.getElementById('door3');
 let startButton= document.getElementById('start');
 let streakOfWinner= document.getElementById('streak');
+let maxStreakOfPlayer= document.getElementById('max-streak');
 
 var numClosedDoors=3;
 var doesNotClick;
 var startAgainCondition;
 var streak=0;
+var maxStreak=streak;
 
 let botDoorPath="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/robot.svg"
 let beachDoorPath="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/beach.svg"
@@ -86,17 +88,24 @@ function playDoor(){
     }
    
 }
-
+function maxStreakfunction(){
+    if(streak>maxStreak){
+        maxStreak=streak;
+        maxStreakOfPlayer.innerHTML=maxStreak;
+    }
+}
 function gameWin(){
     startButton.innerHTML="You Win! Play Again"
     streak++;
     streakOfWinner.innerHTML= streak;
+    maxStreakfunction();
     afterWin();
 }
 function gameLose(){
     startButton.innerHTML="You Lose! Play Again";
     streak=0;
     streakOfWinner.innerHTML= streak;
+    maxStreakfunction();
 }
 function losedGame(ifBot){
     if(ifBot.src===botDoorPath){
