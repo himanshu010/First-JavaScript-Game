@@ -91,7 +91,6 @@
     border: 10px;
     max-width: 80px;
     
-    
 }
 .database-number{
     display: flex;
@@ -121,6 +120,8 @@
     padding: 20px;
 }
 .body{
-    background-color: #010165; 
-	height: 100vh;
+    background-color: #010165;
+    min-height: 120vh;
+    align-content: center;
+    
 }
