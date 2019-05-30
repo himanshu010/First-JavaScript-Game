@@ -4,10 +4,13 @@
     <title>Chore Door!</title>
     <link href="./style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
   </head>
 
-  <body>
-    <div class="header">
+  <body class="body">
+    <div class="header sticky-top">
       <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/logo.svg" alt="logo">
     </div>
     <div class="title-row">
@@ -27,7 +30,7 @@
         </tr>
         <tr>
           <td class="instructions-number">3</td>
-          <td class="instructions-text">f you manage to avoid the ChoreBot until you open the very last door, you win!</td>
+          <td class="instructions-text">If you manage to avoid the ChoreBot until you open the very last door, you win!</td>
         </tr>
         <tr>
           <td class="instructions-number">4</td>
@@ -42,6 +45,26 @@
       <img id="door3" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg" >     	</div>
     <div id="start" class="start-row">
       Good Luck!
+    </div>
+    <div class="container">
+        <div id="database">
+          <div class="row">
+              <div class="database-heading">
+                  Streak
+              </div>
+              <div id="streak" class="database-number">
+
+              </div>
+          </div>
+        </div>
+    </div>
+    <div class="footer sticky-bottom">
+        <div class="footer1">
+            Made with ❤ by Himanshu
+        </div>
+        <div class="footer2">
+            All Rights Reserved
+        </div>
     </div>
     <script type="text/javascript" src="script.js">
   </script>
