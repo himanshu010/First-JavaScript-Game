@@ -1,7 +1,4 @@
-body {
-    background-color: #010165;
-    margin: 0px;
-  }
+
 .door-frame {
   padding:10px;
   cursor: pointer;
@@ -13,37 +10,44 @@ body {
     margin-top: 42px;
     margin-bottom: 21px;
     text-align: center;
+    background-color: #010165;
   
 }
 .instructions-title{
   	display: inline; 
   	font-size: 18px;
-		color: #00ffff;
-		font-family: Work Sans;
+    color: #00ffff;
+    font-family: Work Sans;
+    background-color: #010165;
 }
 .instructions-row{
-  margin: 0 auto;
+    margin: 0 auto;
 	width: 400px;
+    background-color: #010165;
 }
 .instructions-number{
-  padding-right: 25px;
-	font-family: Work Sans;
+    padding-right: 25px;
+    font-family: Work Sans;
 	font-size: 36px;
-	color: #00ffff;
+    color: #00ffff;
+    background-color: #010165;
+	
 }
 .instructions-text{
-  padding: 10px;
+    padding: 10px;
 	font-family: Work Sans;
 	font-size: 14px;
 	color: #ffffff;
+    background-color: #010165;
 }
 .door-row{
-  text-align: center;
+    text-align: center;
+    background-color: #010165;
 }
-.start-row{
+#start{
   margin: auto;
 	width: 120px;
-	height: 43px;
+	height: 70px;
 	font-family: Work Sans;
 	background-color: #eb6536;
 	padding-top: 18px;
@@ -52,4 +56,58 @@ body {
 	color: #010165;
 	margin-bottom: 21px;
 	cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    background-color: #010165;
+    
+}
+#database{
+    display: flex;
+    color: white;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #010165;
+    height: 80px;
+    border-radius: 30px;
+    background-color: #00ffff;
+    width: 80px;
+    
+}
+.database-number{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.database-heading{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+    
+}
+.footer{
+    background-color: #00ffff;
+    color: #010165;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1{
+    padding: 20px;
+}
+.footer2{
+    padding: 20px;
+}
+.body{
+    background-color: #010165;
 }
