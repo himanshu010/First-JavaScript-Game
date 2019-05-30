@@ -121,5 +121,6 @@
     padding: 20px;
 }
 .body{
-    background-color: #010165;    
+    background-color: #010165; 
+	min-height: 100%;
 }
