@@ -11,6 +11,7 @@
     margin-bottom: 21px;
     text-align: center;
     background-color: #010165;
+    font-family: 'Lato', sans-serif;
   
 }
 .instructions-title{
@@ -19,11 +20,13 @@
     color: #00ffff;
     font-family: Work Sans;
     background-color: #010165;
+    font-family: 'Lato', sans-serif;
 }
 .instructions-row{
     margin: 0 auto;
 	width: 400px;
     background-color: #010165;
+    font-family: 'Lato', sans-serif;
 }
 .instructions-number{
     padding-right: 25px;
@@ -31,6 +34,7 @@
 	font-size: 36px;
     color: #00ffff;
     background-color: #010165;
+    font-family: 'Lato', sans-serif;
 	
 }
 .instructions-text{
@@ -39,6 +43,7 @@
 	font-size: 14px;
 	color: #ffffff;
     background-color: #010165;
+    font-family: 'Lato', sans-serif;
 }
 .door-row{
     text-align: center;
@@ -54,33 +59,36 @@
 	font-size: 18px;
 	text-align: center;
 	color: #010165;
-	margin-bottom: 21px;
 	cursor: pointer;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     border-radius: 20px;
+    font-family: 'Lato', sans-serif;
     
 }
 .container{
-    display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    margin: 50px;
     background-color: #010165;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 40px;
     
 }
-#database{
-    display: flex;
+.database{
+    display: inline;
     color: white;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     justify-content: center;
     align-items: center;
     color: #010165;
-    height: 80px;
-    border-radius: 30px;
+    height: 80px;   
     background-color: #00ffff;
-    width: 80px;
+    border: 10px;
+    
     
 }
 .database-number{
@@ -97,17 +105,19 @@
     
 }
 .footer{
-    background-color: #00ffff;
+    background-color: #00ffff; 
     color: #010165;
     display: flex;
     justify-content: space-between;
+    
 }
 .footer1{
     padding: 20px;
+    
 }
 .footer2{
     padding: 20px;
 }
 .body{
-    background-color: #010165;
+    background-color: #010165;    
 }
