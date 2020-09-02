@@ -1,4 +1,4 @@
-# First-JavaScript-Game
+# chore-door
 
 **_Just open two out of three doors an if you encounter 'THE ROBOT', Then you die😢._**
 
